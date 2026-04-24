@@ -1,0 +1,28 @@
+---
+layout: page
+title: Tools
+navbar_title: Tools
+permalink: /tools/
+---
+
+# Tools
+
+A collection of open-source GIS and geospatial research tools developed to support interpretable, reproducible, and human-centered environmental analysis.
+
+## Grain Checker
+
+A lightweight QGIS plugin for testing how spatial aggregation choices affect bivariate point-density relationships.
+
+**Keywords:** MAUP, spatial aggregation, QGIS, sensitivity analysis, spatial statistics
+
+**Repository:** [GitHub](https://github.com/Rintozxr/Grain_Checker_QGISPlugin)
+
+**Demo:** [YouTube](https://www.youtube.com/watch?v=s5FHzwQrjZk)
+
+## Parcel-Level Land-Use Continuity Tool
+
+A QGIS-based workflow for reconstructing parcel-level land-use continuity across historical maps, designed to address boundary drift in longitudinal spatial analysis.
+
+**Keywords:** historical GIS, land-use continuity, parcel matching, topology, transition matrices
+
+**Demo:** [YouTube](https://www.youtube.com/watch?v=3ipKnXsKCno)
