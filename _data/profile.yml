@@ -3,8 +3,8 @@ secondary_name: ""
 navbar_name: "Xinran Zhang"
 
 positions:
-- name: Title or Position
-- name: Affiliation Name
+- name: Landscape & Environmental Exposure Research
+- name: Geospatial Analytics Researcher 
   logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
 
 
@@ -22,27 +22,27 @@ github: rintozxr
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed.
+    I am a geospatial analytics researcher with a background in landscape architecture, environmental perception, and human-environment interaction.
+    My work focuses on developing interpretable, human-centered environmental exposure metrics using spatial modelling, street-level imagery, and open-source GIS tools.
   </p>
   <p>
-    There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
-    and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
-    as well as being common in domestic longhair and domestic shorthair cats.
+   I am particularly interested in how urban environments are represented, measured, and translated into evidence for planning, public health, and wellbeing.
+    My recent projects examine blue-space soundscapes, social behavior, street-level environmental exposure, and parcel-level historical land-use continuity.
   </p>
 
 portrait_url: /assets/images/photos/portrait.jpg
 portrait_caption: >-
-  Photo by Manja Vitolic on Unsplash (this caption is optional, comment it out to disable).
+  Xinran Zhang
 
 education:
 - name: The University of Edinburgh
-  logo: /assets/images/badges/MIT_Social_circle.png
+  # logo: /assets/images/badges/MIT_Social_circle.png
   position: >- 
     Edinburgh College of Art <br/>
-    MSC in Landscape and Wellebing
+    MSC in Landscape and Wellbeing
   date: Sep. 2023 - Sep. 2024
 - name: Fuzhou University
-  logo: /assets/images/badges/PKU_red.png
+  # logo: /assets/images/badges/PKU_red.png
   position: BEng in Landscape Architecture
   date: Sep. 2017 - Jun. 2022
 
