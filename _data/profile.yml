@@ -5,7 +5,7 @@ navbar_name: "Xinran Zhang"
 positions:
 - name: Landscape & Environmental Exposure Research
 - name: Geospatial Analytics Researcher 
-  logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
+  # logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
 
 
 email: "xinranzhang0520@email.com"
@@ -30,20 +30,20 @@ short_bio: >-
     My recent projects examine blue-space soundscapes, social behavior, street-level environmental exposure, and parcel-level historical land-use continuity.
   </p>
 
-portrait_url: /assets/images/photos/portrait.jpg
+portrait_url: /assets/images/photos/potrait.jpg
 portrait_caption: >-
   Xinran Zhang
 
 education:
 - name: The University of Edinburgh
-  # logo: /assets/images/badges/MIT_Social_circle.png
   position: >- 
     Edinburgh College of Art <br/>
     MSC in Landscape and Wellbeing
   date: Sep. 2023 - Sep. 2024
 - name: Fuzhou University
-  # logo: /assets/images/badges/PKU_red.png
-  position: BEng in Landscape Architecture
+  position: >- 
+    School of Architecture and Urban Planning
+    BEng in Landscape Architecture
   date: Sep. 2017 - Jun. 2022
 
 # experience:
