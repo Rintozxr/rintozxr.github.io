@@ -22,12 +22,11 @@ github: rintozxr
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am a geospatial analytics researcher with a background in landscape architecture, environmental perception, and human-environment interaction.
-    My work focuses on developing interpretable, human-centered environmental exposure metrics using spatial modelling, street-level imagery, and open-source GIS tools.
+    I am a researcher interested in how people perceive, experience, and navigate environments, and how these relationships can be represented through spatial data, street-level imagery, and interpretable AI.
   </p>
   <p>
-   I am particularly interested in how urban environments are represented, measured, and translated into evidence for planning, public health, and wellbeing.
-    My recent projects examine blue-space soundscapes, social behavior, street-level environmental exposure, and parcel-level historical land-use continuity.
+   My work sits at the intersection of environmental behaviour, geospatial analytics, computer vision, and human-centered spatial intelligence. 
+   Through both research and open-source tool development, I aim to build more meaningful representations of human-environment interactions for planning, health, and urban decision-making.
   </p>
 
 portrait_url: /assets/images/photos/potrait.jpg
