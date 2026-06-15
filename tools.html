@@ -1,4 +1,3 @@
-"""
 ---
 layout: page
 title: Tools
@@ -12,7 +11,7 @@ A collection of open-source GIS and geospatial research tools developed to suppo
 
 ## Grain Checker
 
-A lightweight QGIS plugin for testing how spatial aggregation choices affect bivariate point-density relationships.
+A lightweight QGIS plugin for exploring how spatial aggregation choices affect bivariate point-density relationships.
 
 **Keywords:** MAUP, spatial aggregation, QGIS, sensitivity analysis, spatial statistics
 
@@ -27,37 +26,3 @@ A QGIS-based workflow for reconstructing parcel-level land-use continuity across
 **Keywords:** historical GIS, land-use continuity, parcel matching, topology, transition matrices
 
 **Demo:** [YouTube](https://www.youtube.com/watch?v=3ipKnXsKCno)
-"""
-
----
-layout: default
-title : Tools
-navbar_title: Tools
-body_attr: >-
-  data-spy="scroll" data-target="#navbar-year" data-offset="100"
----
-
-{% assign pubs_by_year = site.tools | sort: "date" | reverse | group_by_exp: "item", "item.date | date: '%Y'" %}
-
-<div class="row">
-    <div class="col-12 col-lg-10">
-        {% for year in pubs_by_year %}
-        {% assign num_papers = year.items | size %}
-        <h2 class="pt-4" id="year-{{ year.name }}">{{ year.name }}</h2>
-        <div class="my-0 p-0 bg-white shadow-sm rounded-xl">
-            {% for item in year.items %}
-                {% include widgets/publication_item.html item=item hide_bottom_border=forloop.last first=forloop.first last=forloop.last %}
-            {% endfor %}
-        </div>
-        {% endfor %}
-    </div>
-
-    <div class="col-2 d-none d-lg-block">
-        <div id="navbar-year" class="nav nav-pills flex-column sticky-top" style="top: 80px">
-            {% for year in pubs_by_year %}
-            <a class="nav-link d-block" href="#year-{{ year.name }}">{{ year.name }}</a>
-            {% endfor %}
-        </div>
-    </div>
-
-</div>
