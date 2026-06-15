@@ -11,5 +11,7 @@ pages:
  # url: /publications
 #- name: Showcase
   #url: /showcase
-- name: Researches
-  url: /researches
+- name: Research
+  url: /research
+- name: CV
+  url: /cv
