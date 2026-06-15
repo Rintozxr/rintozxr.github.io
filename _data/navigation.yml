@@ -7,11 +7,9 @@ pages:
  # url: /index_layout2
 - name: Tools
   url: /tools
-#- name: Publications
- # url: /publications
+- name: Research
+  url: /publications
 #- name: Showcase
   #url: /showcase
-- name: Research
-  url: /research
 - name: CV
   url: /cv
