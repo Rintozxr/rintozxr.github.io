@@ -27,11 +27,6 @@ short_bio: >-
   <p>
    My work connects environmental behaviour, geospatial analytics, computer vision, and human-centered spatial intelligence. I develop both research frameworks and open-source tools to support more meaningful representations of human-environment interactions for planning, health, and urban decision-making.
   </p>
-  #<p>
-    #<a class="btn btn-sm btn-primary" href="{{ '/cv/' | relative_url }}">CV</a>
-    #<a class="btn btn-sm btn-outline-primary" href="{{ '/research/' | relative_url }}">Research</a>
-    #<a class="btn btn-sm btn-outline-primary" href="{{ '/tools/' | relative_url }}">Tools</a>
-  #</p>
 
 portrait_url: /assets/images/photos/potrait.jpg
 portrait_caption: >-
