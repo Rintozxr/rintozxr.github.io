@@ -3,8 +3,8 @@ secondary_name: "张欣然"
 navbar_name: "Xinran Zhang"
 
 positions:
-- name: Landscape & Environmental Exposure Research
-- name: Geospatial Analytics Researcher 
+- name: Human-Centered Spatial Intelligence
+#- name: Geospatial Analytics Researcher 
   # logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
 
 
@@ -22,11 +22,15 @@ linkedin: xinran-z-421719271
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am a researcher interested in how people perceive, experience, and navigate environments, and how these relationships can be represented through spatial data, street-level imagery, and interpretable AI.
+    I study how people perceive, experience, and navigate environments, and how these interactions can be represented through spatial data, street-level imagery, and interpretable AI.
   </p>
   <p>
-   My work sits at the intersection of environmental behaviour, geospatial analytics, computer vision, and human-centered spatial intelligence. 
-   Through both research and open-source tool development, I aim to build more meaningful representations of human-environment interactions for planning, health, and urban decision-making.
+   My work connects environmental behaviour, geospatial analytics, computer vision, and human-centered spatial intelligence. I develop both research frameworks and open-source tools to support more meaningful representations of human-environment interactions for planning, health, and urban decision-making.
+  </p>
+  <p>
+    <a class="btn btn-sm btn-primary" href="{{ '/cv/' | relative_url }}">CV</a>
+    <a class="btn btn-sm btn-outline-primary" href="{{ '/research/' | relative_url }}">Research</a>
+    <a class="btn btn-sm btn-outline-primary" href="{{ '/tools/' | relative_url }}">Tools</a>
   </p>
 
 portrait_url: /assets/images/photos/potrait.jpg
