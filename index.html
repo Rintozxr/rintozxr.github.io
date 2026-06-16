@@ -8,32 +8,65 @@ navbar_title: Home
     <div class="col-lg-3 col-md-4">
         {% include widgets/profile_card_mini.html %}
     </div>
+
     <div class="col-lg-9 col-md-8">
 
         {% include widgets/profile_card_bio_only.html %}
 
-        <!-- Debugging widgets -->
-        # {% include widgets/debug_repo_name.html %}
-        # {% include widgets/debug_url.html %}
+        <div class="card border-0 shadow-sm rounded-xl my-4">
+            <div class="card-body">
+                <h2 class="card-title">Research Highlights</h2>
+                <p class="text-muted mb-4">
+                    Selected research directions across human-environment interaction, street-level imagery, and spatial intelligence.
+                </p>
 
-        {% if site.data.display.homepage.show_experience %}
-            {% include widgets/experience_card.html %}
-        {% endif %}
+                <div class="card border-0 shadow-sm rounded-xl my-3">
+                    <div class="card-body">
+                        <h3 class="card-title">VLM Capacity and Limitations</h3>
+                        <p class="text-muted mb-2">
+                            Vision-Language Models · Spatial Intelligence · Street-View Imagery
+                        </p>
+                        <p>
+                            Evaluating how vision-language models interpret street-level environments, with attention to spatial reasoning, accessibility assessment, and human-centered environmental judgement.
+                        </p>
+                        <p>
+                            <a class="btn btn-sm btn-primary" href="{{ '/research/vlm-capacity/' | relative_url }}">Read More →</a>
+                        </p>
+                    </div>
+                </div>
 
-        {% if site.data.display.homepage.show_news %}
-        {% assign count_news = site.news | size %}
-        {% if count_news > 0 %}
-        {% include widgets/news_card.html limit=site.data.display.homepage.num_news %}
-        {% endif %}
-        {% endif %}
+                <div class="card border-0 shadow-sm rounded-xl my-3">
+                    <div class="card-body">
+                        <h3 class="card-title">Street-Level Environmental Exposure Modelling</h3>
+                        <p class="text-muted mb-2">
+                            Street-Level Imagery · Environmental Exposure · Exposome · GIS
+                        </p>
+                        <p>
+                            Developing interpretable exposure indicators from street-level imagery by combining semantic segmentation, GIS-based spatial analysis, and structural representations.
+                        </p>
+                        <p>
+                            <a class="btn btn-sm btn-primary" href="{{ '/research/street-level-exposure/' | relative_url }}">Read More →</a>
+                        </p>
+                    </div>
+                </div>
 
-        {% if site.data.display.homepage.show_selected_publications %}
-        {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
-        {%
-        include widgets/publication_card.html
-        publications=pubs
-        title='<i class="fas fa-star"></i> Selected Publications'
-        %}
-        {% endif %}
+                <div class="card border-0 shadow-sm rounded-xl my-3">
+                    <div class="card-body">
+                        <h3 class="card-title">Blue-Space Soundscape and Social Behaviour</h3>
+                        <p class="text-muted mb-2">
+                            Soundscape · Environmental Behaviour · Blue Space · Wellbeing
+                        </p>
+                        <p>
+                            Investigating how restorative soundscape characteristics shape social behaviour and public-space experience in urban blue spaces.
+                        </p>
+                        <p>
+                            <a class="btn btn-sm btn-primary" href="{{ '/research/blue-space-soundscape/' | relative_url }}">Read More →</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
     </div>
 </div>
