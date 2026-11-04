@@ -10,9 +10,10 @@ permalink: /research/humanroute/
 
 <div class="project-meta">
   <span class="badge">Independent Research</span>
-  <span class="badge">Spatial Accessibility</span>
-  <span class="badge">Human–Environment Interaction</span>
-  <span class="badge">Counterfactual Evaluation</span>
+  <span class="badge">Vision-Language Models</span>
+  <span class="badge">Street-View Imagery</span>
+  <span class="badge">Accessibility Assessment</span>
+  <span class="badge">Human-centered AI</span>
 </div>
 
 ---
