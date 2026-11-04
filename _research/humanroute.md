@@ -95,12 +95,12 @@ These conditions are designed to distinguish changes associated with the amount,
 
 ## Current Progress
 The project has established a street-view sampling workflow, a structured evaluation schema, and an initial VLM inference pipeline.
-<br/>
+<br/><br/>
 Implemented work includes route data preparation, keyframe selection, visual-context construction, and preliminary structured model inference.
-<br/>
+<br/><br/>
 Systematic comparisons, human reference development, and validation remain ongoing. No definitive conclusions about model accuracy or spatial reasoning are claimed at this stage.
 
 ## Next Steps
 The next stage focuses on completing human reference assessments, implementing controlled comparisons across context and sequence conditions, and examining the robustness of model-generated judgments.
-<br/>
+<br/><br/>
 Ultimately, HumanRoute aims to contribute to a broader methodological question: how should multimodal AI systems be evaluated when the environments they assess are sequential, spatially connected, and experienced differently by different people?
