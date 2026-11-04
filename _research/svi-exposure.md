@@ -22,7 +22,7 @@ permalink: /research/streetsignals/
 
 How much can street-view imagery tell us about traffic-related air pollution when direct environmental measurements are unavailable?
 <br/>
-This project was developed as a research exercise during a PhD selection process at Utrecht University. Given a dataset of 200 street-view images and an open-ended task to investigate their relevance to air pollution, I designed and implemented an exploratory computer vision workflow to quantify visible traffic characteristics.
+This exploratory project investigates how street-view imagery can be used to construct interpretable indicators of urban traffic characteristics relevant to air pollution research. Given a dataset of 200 street-view images and an open-ended task to investigate their relevance to air pollution, I designed and implemented an exploratory computer vision workflow to quantify visible traffic characteristics.
 <br/>
 Rather than attempting to predict PM2.5 concentrations directly, the study examined whether image-derived indicators could describe differences in traffic presence and modal dominance across urban streets.
 
