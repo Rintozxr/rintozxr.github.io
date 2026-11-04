@@ -19,7 +19,7 @@ permalink: /research/aftermath/
 
 ## What kind of space does a robot leave behind after completing its task?
 AFTERMATH is a computational research project investigating how successful robotic rearrangements alter the accessibility of shared environments for subsequent users. It examines the consequences of task-complete spatial configurations, the availability of less disruptive alternatives, and the differences between aggregate accessibility improvements and individual route requirements.
-* Figure 1. Different successful robot plans can leave substantially different accessibility conditions for subsequent users.
+*Figure 1. Different successful robot plans can leave substantially different accessibility conditions for subsequent users.*
 
 ---
 
@@ -40,7 +40,7 @@ Accessibility is assessed using three synthetic mobility profiles with different
 For each terminal state, a geometric path scanner evaluates nine profile–destination combinations, recording route reachability and shortest-path detours relative to an unobstructed reference environment.
 Cost-bounded counterfactual analysis then compares alternative task-complete arrangements using the same accessibility measures.
 
-* Figure 2. Evaluation pipeline connecting robot task completion, terminal-state reconstruction, capability-conditioned accessibility assessment, and counterfactual comparison.
+*Figure 2. Evaluation pipeline connecting robot task completion, terminal-state reconstruction, capability-conditioned accessibility assessment, and counterfactual comparison.*
 
 ---
 
@@ -58,7 +58,7 @@ In the representative Tree C scenario, aggregate accessibility selection reduced
 A subsequent requirement-constrained comparison identified a third arrangement that satisfied the adult requirement while retaining improvements for other profiles.
 This case illustrates why aggregate rankings and requirement-level outcomes should be examined separately.
 
-* Figure 3. Tree C: a comparison of task-cost, aggregate-accessibility, and requirement-constrained terminal-state selections.
+*Figure 3. Tree C: a comparison of task-cost, aggregate-accessibility, and requirement-constrained terminal-state selections.*
 
 ---
 
