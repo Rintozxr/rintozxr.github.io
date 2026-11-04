@@ -6,98 +6,84 @@ permalink: /research/blue-soundscape/
 
 # Blue-Space Soundscape Restoration and Social Behaviour
 
+**Exploring the Relationship Between Restorative Soundscapes and Social Interaction in Urban Waterfronts**
+
+<div class="project-meta">
+  <span class="badge">Master's dissertation</span>
+  <span class="badge">Fieldwork</span>
+  <span class="badge">Environmental Psychology</span>
+  <span class="badge">Soundscape</span>
+  <span class="badge">Mix-method study</span>
+</div>
+
+---
+
+
 ## Overview
 
-Urban blue spaces offer opportunities for psychological restoration and social interaction, yet the relationship between their acoustic environments and people's social behaviour remains insufficiently understood. While previous research has demonstrated the restorative potential of natural sounds, it is less clear how these experiences relate to the ways people use and interact within public spaces.
-
-This study investigated the relationship between restorative soundscapes and social behaviour across three waterfront sites along the River Clyde in Glasgow. Combining spatial analysis, acoustic measurements, systematic behavioural observations, and semi-structured interviews, the research examined both the environmental characteristics associated with social interaction and the psychological experiences that may help explain these relationships.
-
-The findings suggest that soundscape restoration does not necessarily translate into increased social interaction. Instead, the relationship depends on sound levels, sound-source characteristics, and the particular dimensions of restoration experienced by users.
-
-## Research Question
-
-How are the restorative qualities of urban blue-space soundscapes associated with people's social behaviour, and what psychological processes might explain these relationships?
-
-The study addressed two connected questions:
-
-Which characteristics of restorative soundscapes are associated with the occurrence and spatial distribution of social behaviour?
-
-How do people perceive and interpret the influence of soundscapes on their willingness to engage in social interaction?
+Does a more restorative soundscape necessarily encourage more social interaction?
+<br/>
+This study investigated the relationship between soundscape restoration and social behaviour across three waterfront sites along the River Clyde in Glasgow. Combining GIS-based spatial analysis, acoustic measurements, systematic behavioural observations, and semi-structured interviews, it examined how environmental conditions relate to social interaction and how visitors interpret these relationships.
+<br/><br/>
+The findings suggest that restorative soundscapes do not necessarily encourage social interaction. Their associations with social behaviour vary according to acoustic characteristics and the ways people experience restoration.
 
 ## Study Design
 
-### 01 / Site Selection and Spatial Sampling
+The study combined four complementary approaches:
 
-Three waterfront sites were selected along the River Clyde to represent contrasting acoustic environments: Broomielaw, characterised by traffic noise; Glasgow Green, influenced predominantly by natural sounds; and Prince's Dock, with comparatively limited exposure to either source category.
+### 1. GIS-Based Site Selection and Sampling
 
-Site selection combined GIS-based sound-source proximity analysis with spatial and socioeconomic considerations. A grid-based sampling framework was then established to support the spatial comparison of soundscape characteristics and observed behaviour.
+Three contrasting waterfront environments—Broomielaw, Glasgow Green, and Prince's Dock—were selected through GIS-based sound-source proximity analysis. A 50 m × 15 m grid framework established 65 spatial sampling points.
 
-### 02 / Soundscape Assessment
+[Figure 1. Study sites and spatial sampling along the River Clyde.]
 
-The study adapted the Health Restoration Soundscapes Criteria (HeReS-C) framework to evaluate the restorative characteristics of urban blue spaces through five dimensions:
+### 2. Soundscape Assessment
 
-Naturalness
+An adapted Health Restoration Soundscapes Criteria (HeReS-C) framework assessed naturalness, sound levels, perceived sound sources, overall soundscape quality, and sensescape coherence. Field acoustic measurements and observer assessments were used to map spatial variations in restorative soundscape characteristics.
 
-Sound levels
+### 3.Behavioural Observation and Statistical Analysis
 
-Perceived sound sources
+Using the BlueHealth Behaviour Assessment Tool (BBAT), 1,780 behavioural observations were recorded, including visitors' activities, locations, and social interactions. Behaviour mapping, Cramér's V analysis, and binary logistic regression were used to examine associations between soundscape conditions and social behaviour.
 
-Overall soundscape assessment
+[Figure 2. Spatial distribution of soundscape restoration and observed waterfront behaviour.]
 
-Sensescape coherence
+### 4. Interviews and Psychological Interpretation
 
-Field measurements and observer-based assessments were conducted across 65 sampling points. Sound levels were recorded using A-weighted acoustic indicators, while spatial interpolation was used to visualise variations in soundscape characteristics across the study sites.
-
-### 03 / Behavioural Observation and Statistical Analysis
-
-Systematic, non-participatory behavioural observations were conducted using the BlueHealth Behaviour Assessment Tool (BBAT). Observations recorded visitors' activities, demographic characteristics, spatial locations, and social interactions.
-
-Spatial behaviour maps were developed to examine patterns of public-space use. Cramér's V association analysis and binary logistic regression were then used to investigate relationships between soundscape restoration indicators and the occurrence of social behaviour.
-
-### 04 / Interviews and Psychological Interpretation
-
-Semi-structured interviews with 55 waterfront visitors explored their perceptions of restorative and stressful sounds, preferred activity locations, and perceived behavioural responses to the acoustic environment.
-
-Interview transcripts were analysed using qualitative coding informed by Attention Restoration Theory (ART) and Stress Recovery Theory (SRT), connecting observed behavioural patterns with participants' reported experiences.
+Semi-structured interviews were initiated with 55 visitors, of whom 53 completed the interviews. NVivo-based qualitative analysis, informed by Attention Restoration Theory (ART) and Stress Recovery Theory (SRT), explored how visitors perceived acoustic environments and their influence on behaviour.
 
 ## Key Findings
 
-### 01 / Quieter is not always more social
+### 1. Quieter Is Not Always More Social
 
-Relatively quiet soundscapes were generally associated with greater social interaction than noisier environments. However, interview responses revealed that exceptionally quiet settings could also discourage conversation, as visitors sought to avoid disturbing others.
+Lower sound levels were associated with social interaction under some assessment conditions, but this relationship was not consistent across statistical analyses. Interviews also suggested that exceptionally quiet environments could discourage conversation.
 
-This suggests that soundscape conditions supportive of social interaction cannot be defined simply by minimising sound levels.
+### 2. Restorative Sounds Do Not Always Encourage Interaction
 
-### 02 / Restorative sounds do not always encourage interaction
+Natural and other restorative sounds showed varying associations with social behaviour across sites. Some experiences of restoration appeared to encourage inward attention or contemplation rather than interpersonal engagement.
 
-Natural sound sources did not exhibit consistent associations with social behaviour across the three sites. In some contexts, sounds perceived as restorative were negatively associated with social interaction.
+### 3. Different Restorative Experiences May Support Different Behaviours
 
-Qualitative findings suggested that different sounds may support different restorative experiences. Sounds that encourage psychological escape or inward reflection may not necessarily encourage engagement with other people.
-
-The restorative quality of a sound source, therefore, does not by itself determine its relationship with social behaviour.
-
-### 03 / Stress reduction and exploratory interest offer possible explanations
-
-Interview findings highlighted two processes through which restorative soundscapes may support social interaction: alleviating stress and encouraging interest in the surrounding environment.
-
-These experiences suggest that the relationship between soundscape restoration and social behaviour may depend not only on whether an environment feels restorative, but also on how that restoration is experienced.
+Interview findings suggested that stress reduction and exploratory interest could help explain why certain soundscapes support social engagement. These were qualitative interpretations rather than experimentally established psychological mechanisms.
+<br/>
+[Figure 3. Statistical associations and qualitative interpretations of soundscape–behaviour relationships.]
 
 ## Implications
 
-The findings highlight the importance of considering acoustic experience alongside the spatial and functional design of urban public spaces.
-
-For areas intended to support social activities, such as seating areas, lawns, and waterfront plazas, designing for restorative soundscapes involves more than reducing noise or increasing natural sound sources. Attention should also be given to the experiential qualities of different sounds and their relationships with intended patterns of public-space use.
-
-More broadly, this research demonstrates how environmental measurements, spatial behaviour data, and qualitative accounts of human experience can be integrated to inform evidence-based landscape design.
+The study highlights the distinction between an environment's restorative qualities and its capacity to support particular behaviours.
+<br/><br/>
+For urban waterfront design, creating socially supportive soundscapes involves more than reducing noise or increasing natural sounds. Acoustic conditions should also be considered alongside spatial functions, intended activities, and users' experiences.
+<br/><br/>
+More broadly, this research demonstrates how environmental measurements, spatial behaviour observations, and qualitative accounts can be integrated to investigate relationships between people and their environments.
 
 ## Project Information
 
 Institution: University of Edinburgh, Edinburgh College of Art
+<br/><br/>
 Programme: MSc Landscape and Wellbeing
+<br/><br/>
 Supervisor: Prof. Simon Bell
+<br/><br/>
 Year: 2024
-Research Type: Master's Dissertation
-
-Research Tools: QGIS · Stata · NVivo · Acoustic Field Measurement · Behaviour Mapping
 
 Materials: Full Dissertation (PDF)
+
