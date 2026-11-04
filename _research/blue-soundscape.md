@@ -33,9 +33,37 @@ The study combined four complementary approaches:
 
 ### 1. GIS-Based Site Selection and Sampling
 
-Three contrasting waterfront environments—Broomielaw, Glasgow Green, and Prince's Dock—were selected through GIS-based sound-source proximity analysis. A 50 m × 15 m grid framework established 65 spatial sampling points.
+Three contrasting waterfront environments—Broomielaw, Glasgow Green, and Prince's Dock—were selected through GIS-based sound-source proximity analysis. 
 
-[Figure 1. Study sites and spatial sampling along the River Clyde.]
+<figure class="text-center my-4">
+  <img
+    src="{{ '/assets/images/bluesounscape/figure1.png' | relative_url }}"
+    alt="Study Sites & Spatial Sampling"
+    class="img-fluid rounded"
+    style="max-width: 850px; width: 100%;"
+  >
+  <figcaption class="text-muted small mt-2">
+    <strong>Figure 1.</strong>
+    Study sites along the River Clyde.
+  </figcaption>
+</figure>
+
+
+A 50 m × 15 m grid framework established 65 spatial sampling points.
+
+<figure class="text-center my-4">
+  <img
+    src="{{ '/assets/images/bluesounscape/figure2.png' | relative_url }}"
+    alt="Study Sites & Spatial Sampling"
+    class="img-fluid rounded"
+    style="max-width: 850px; width: 100%;"
+  >
+  <figcaption class="text-muted small mt-2">
+    <strong>Figure 1.</strong>
+    Sampling spots of 3 study sites
+  </figcaption>
+</figure>
+
 
 ### 2. Soundscape Assessment
 
@@ -45,7 +73,19 @@ An adapted Health Restoration Soundscapes Criteria (HeReS-C) framework assessed 
 
 Using the BlueHealth Behaviour Assessment Tool (BBAT), 1,780 behavioural observations were recorded, including visitors' activities, locations, and social interactions. Behaviour mapping, Cramér's V analysis, and binary logistic regression were used to examine associations between soundscape conditions and social behaviour.
 
-[Figure 2. Spatial distribution of soundscape restoration and observed waterfront behaviour.]
+<figure class="text-center my-4">
+  <img
+    src="{{ '/assets/images/bluesounscape/figure3.png' | relative_url }}"
+    alt="Spatial distribution of soundscape restoration and observed waterfront behaviour.]"
+    class="img-fluid rounded"
+    style="max-width: 850px; width: 100%;"
+  >
+  <figcaption class="text-muted small mt-2">
+    <strong>Figure 1.</strong>
+    Spatial distribution of soundscape restoration and observed waterfront behaviour.]
+  </figcaption>
+</figure>
+
 
 ### 4. Interviews and Psychological Interpretation
 
