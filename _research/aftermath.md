@@ -20,8 +20,8 @@ permalink: /research/aftermath/
 ## What kind of space does a robot leave behind after completing its task?
 AFTERMATH is a computational research project investigating how successful robotic rearrangements alter the accessibility of shared environments for subsequent users. It examines the consequences of task-complete spatial configurations, the availability of less disruptive alternatives, and the differences between aggregate accessibility improvements and individual route requirements.<br>
 <br>
-![Same robot task. Different Consequences](assets/images/aftermath/aftermath-01-terminal-comparison.png)
-*Figure 1. Different successful robot plans can leave substantially different accessibility conditions for subsequent users.*<br>
+![*Figure 1. Different successful robot plans can leave substantially different accessibility conditions for subsequent users.*<br>](rintozxr.github.io/assets/images/aftermath/aftermath-01-terminal-comparison.png)
+
 
 ---
 
@@ -46,8 +46,8 @@ For each terminal state, a geometric path scanner evaluates nine profile–desti
 <br>
 Cost-bounded counterfactual analysis then compares alternative task-complete arrangements using the same accessibility measures.<br>
 <br>
-![How AFTERMATH evaluates a terminal state](assets/images/aftermath/aftermath-02-framework.png)
-*Figure 2. Evaluation pipeline connecting robot task completion, terminal-state reconstruction, capability-conditioned accessibility assessment, and counterfactual comparison.*<br>
+![*Figure 2. Evaluation pipeline connecting robot task completion, terminal-state reconstruction, capability-conditioned accessibility assessment, and counterfactual comparison.*<br>](rintozxr.github.io/assets/images/aftermath/aftermath-02-framework.png)
+
 
 ---
 
@@ -66,8 +66,8 @@ In the representative Tree C scenario, aggregate accessibility selection reduced
 A subsequent requirement-constrained comparison identified a third arrangement that satisfied the adult requirement while retaining improvements for other profiles.<br>
 This case illustrates why aggregate rankings and requirement-level outcomes should be examined separately.<br>
 <br>
-![One scene. Three different aftermaths.](assets/images/aftermath/aftermath-03-tree-c.png)
-*Figure 3. Tree C: a comparison of task-cost, aggregate-accessibility, and requirement-constrained terminal-state selections.*
+!*Figure 3. Tree C: a comparison of task-cost, aggregate-accessibility, and requirement-constrained terminal-state selections.*](rintozxr.github.io/assets/images/aftermath/aftermath-03-tree-c.png)
+
 
 ---
 
