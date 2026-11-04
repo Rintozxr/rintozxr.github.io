@@ -42,7 +42,16 @@ A rank-based indicator comparing car and bicycle pixel proportions, representing
 <br/>
 Together, these indicators provide a simplified description of the visible traffic environment without requiring continuous panoramic coverage or reconstructed street geometry.
 
-[Figure 1. Workflow for extracting visual traffic indicators from four-directional street-view imagery.]
+<figure style="max-width: 900px; margin: 2rem auto;">
+  <img
+    src="/assets/images/streetsignals/figure1.png"
+    alt="From Street Views to Traffic Indicators"
+    style="width: 100%; height: auto; display: block;"
+  >
+  <figcaption style="margin-top: 0.5rem; color: #666; font-size: 0.9rem;">
+    Figure 1. Workflow for extracting visual traffic indicators from four-directional street-view imagery.
+  </figcaption>
+</figure>
 
 ## Exploratory Findings
 
@@ -52,7 +61,17 @@ For example, one location exhibited relatively high traffic presence and strong 
 <br/>
 These contrasting cases demonstrate how semantic segmentation can distinguish different street-level traffic environments. However, the indicators describe visual characteristics rather than measured emissions or pollution exposure.
 <br/>
-[Figure 2. Distribution of visual traffic indicators and contrasting street-view cases.]
+
+<figure style="max-width: 900px; margin: 2rem auto;">
+  <img
+    src="/assets/images/streetsignals/figure2.png"
+    alt="Visual Traffic Patterns Across Sampled Locations"
+    style="width: 100%; height: auto; display: block;"
+  >
+  <figcaption style="margin-top: 0.5rem; color: #666; font-size: 0.9rem;">
+    Figure 2. Distribution of visual traffic indicators and contrasting street-view cases.
+  </figcaption>
+</figure>
 
 ## Limitations and Research Implications
 
