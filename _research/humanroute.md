@@ -1,9 +1,9 @@
 ---
 layout: page
 title: VLM Capacity and Limitations
-permalink: /research/vlm-capacity/
+permalink: /research/humanroute/
 ---
 
-# VLM Capacity and Limitations
+# HumanRoute
 
 Coming soon.
