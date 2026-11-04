@@ -9,7 +9,7 @@ permalink: /research/streetsignals/
 **Reading Urban Traffic Patterns from Street-View Imagery**
 
 <div class="project-meta">
-  <span class="badge">Independent Research</span>
+  <span class="badge">Methodological Pilot Study</span>
   <span class="badge">Street-Level Imagery</span>
   <span class="badge">Semantic Segmentation</span>
   <span class="badge">Environmental Exposure</span>
