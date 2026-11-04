@@ -37,7 +37,7 @@ Three contrasting waterfront environments—Broomielaw, Glasgow Green, and Princ
 
 <figure class="text-center my-4">
   <img
-    src="{{ '/assets/images/bluesounscape/figure1.png' | relative_url }}"
+    src="{{ '/assets/images/bluesoundscape/figure1.png' | relative_url }}"
     alt="Study Sites & Spatial Sampling"
     class="img-fluid rounded"
     style="max-width: 850px; width: 100%;"
@@ -53,13 +53,13 @@ A 50 m × 15 m grid framework established 65 spatial sampling points.
 
 <figure class="text-center my-4">
   <img
-    src="{{ '/assets/images/bluesounscape/figure2.png' | relative_url }}"
+    src="{{ '/assets/images/bluesoundscape/figure2.png' | relative_url }}"
     alt="Study Sites & Spatial Sampling"
     class="img-fluid rounded"
     style="max-width: 850px; width: 100%;"
   >
   <figcaption class="text-muted small mt-2">
-    <strong>Figure 1.</strong>
+    <strong>Figure 2.</strong>
     Sampling spots of 3 study sites
   </figcaption>
 </figure>
@@ -75,14 +75,14 @@ Using the BlueHealth Behaviour Assessment Tool (BBAT), 1,780 behavioural observa
 
 <figure class="text-center my-4">
   <img
-    src="{{ '/assets/images/bluesounscape/figure3.png' | relative_url }}"
+    src="{{ '/assets/images/bluesoundscape/figure3.png' | relative_url }}"
     alt="Spatial distribution of soundscape restoration and observed waterfront behaviour.]"
     class="img-fluid rounded"
     style="max-width: 850px; width: 100%;"
   >
   <figcaption class="text-muted small mt-2">
-    <strong>Figure 1.</strong>
-    Spatial distribution of soundscape restoration and observed waterfront behaviour.]
+    <strong>Figure 3.</strong>
+    Spatial distributions of (a–c) soundscape restoration and (d–f) visitor activity density across the three study sites.]
   </figcaption>
 </figure>
 
