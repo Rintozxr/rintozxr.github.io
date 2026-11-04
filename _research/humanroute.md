@@ -59,6 +59,8 @@ A multi-scale sampling framework was developed to represent route environments a
     Study area and spatial sampling framework.
   </figcaption>
 </figure>
+© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors,
+© <a href="https://carto.com/attribution/">CARTO</a>
 
 The experimental framework considers:
 <br/>
