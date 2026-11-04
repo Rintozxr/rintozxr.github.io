@@ -21,13 +21,17 @@ permalink: /research/aftermath/
 AFTERMATH is a computational research project investigating how successful robotic rearrangements alter the accessibility of shared environments for subsequent users. It examines the consequences of task-complete spatial configurations, the availability of less disruptive alternatives, and the differences between aggregate accessibility improvements and individual route requirements.<br>
 <br>
 
-<a href="/assets/images/aftermath/aftermath-01-terminal-comparison.png">
+<figure style="max-width: 900px; margin: 2rem auto;">
   <img
     src="/assets/images/aftermath/aftermath-01-terminal-comparison.png"
     alt="Two task-complete robot arrangements with different accessibility outcomes"
     style="width: 100%; height: auto; display: block;"
   >
-</a>
+  <figcaption style="margin-top: 0.5rem; color: #666; font-size: 0.9rem;">
+    Figure 1. Different successful robot plans can leave substantially different accessibility conditions for subsequent users.
+  </figcaption>
+</figure>
+
 *Figure 1. Different successful robot plans can leave substantially different accessibility conditions for subsequent users.*
 
 
@@ -54,13 +58,18 @@ For each terminal state, a geometric path scanner evaluates nine profile–desti
 <br>
 Cost-bounded counterfactual analysis then compares alternative task-complete arrangements using the same accessibility measures.<br>
 <br>
-<a href="/assets/images/aftermath/aftermath-02-framework.png">
+
+<figure style="max-width: 900px; margin: 2rem auto;">
   <img
-    src="/assets/images/aftermath/aftermath-02-framework.pngg"
+    src="/assets/images/aftermath/aftermath-02-framework.png"
     alt="Two task-complete robot arrangements with different accessibility outcomes"
     style="width: 100%; height: auto; display: block;"
   >
-</a>
+  <figcaption style="margin-top: 0.5rem; color: #666; font-size: 0.9rem;">
+    Figure 2. Evaluation pipeline connecting robot task completion, terminal-state reconstruction, capability-conditioned accessibility assessment, and counterfactual comparison.
+  </figcaption>
+</figure>
+
 *Figure 2. Evaluation pipeline connecting robot task completion, terminal-state reconstruction, capability-conditioned accessibility assessment, and counterfactual comparison.*<br>
 
 
@@ -81,13 +90,19 @@ In the representative Tree C scenario, aggregate accessibility selection reduced
 A subsequent requirement-constrained comparison identified a third arrangement that satisfied the adult requirement while retaining improvements for other profiles.<br>
 This case illustrates why aggregate rankings and requirement-level outcomes should be examined separately.<br>
 <br>
-<a href="/assets/images/aftermath/aftermath-03-tree-c.png">
+
+<figure style="max-width: 900px; margin: 2rem auto;">
   <img
     src="/assets/images/aftermath/aftermath-03-tree-c.png"
     alt="Two task-complete robot arrangements with different accessibility outcomes"
     style="width: 100%; height: auto; display: block;"
   >
-</a>
+  <figcaption style="margin-top: 0.5rem; color: #666; font-size: 0.9rem;">
+    Figure 3. Tree C: a comparison of task-cost, aggregate-accessibility, and requirement-constrained terminal-state selections.
+  </figcaption>
+</figure>
+
+
 *Figure 3. Tree C: a comparison of task-cost, aggregate-accessibility, and requirement-constrained terminal-state selections.*
 
 ---
