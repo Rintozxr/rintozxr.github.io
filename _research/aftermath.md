@@ -126,4 +126,5 @@ Counterfactual findings are limited to observed candidate arrangements and their
 
 ## Research Materials
 [View on GitHub](https://github.com/Rintozxr/Aftermath)
-[Technical report (coming soon)]
+<br>
+Technical report (coming soon)
