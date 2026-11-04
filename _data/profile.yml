@@ -3,7 +3,7 @@ secondary_name: "张欣然"
 navbar_name: "Xinran Zhang"
 
 positions:
-- name: Human-Centered Spatial Intelligence
+- name: An interdisciplinary researcher exploring human–environment relationships through spatial analysis, behavioural research, and human-centered AI.
 #- name: Geospatial Analytics Researcher 
   # logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
 
@@ -22,10 +22,14 @@ linkedin: xinran-z-421719271
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I study how people perceive, experience, and navigate environments, and how these interactions can be represented through spatial data, street-level imagery, and interpretable AI.
+    Hi! I'm Xinran Zhang, a researcher with a background in Landscape Architecture and an MSc in Landscape and Wellbeing from the University of Edinburgh.
+
+My research explores how people perceive, experience, and interact with their environments. Starting from fieldwork and spatial analysis, I've gradually expanded into computer vision, human-centered AI, and embodied systems, with a particular interest in how computational models account for different people's needs and experiences.
+
+Outside research, I enjoy knitting, making things, and occasionally turning strange ideas into actual projects.
   </p>
   <p>
-   My work connects environmental behaviour, geospatial analytics, computer vision, and human-centered spatial intelligence. I develop both research frameworks and open-source tools to support more meaningful representations of human-environment interactions for planning, health, and urban decision-making.
+   
   </p>
 
 portrait_url: /assets/images/photos/headshot2.jpg
