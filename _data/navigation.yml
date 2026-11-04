@@ -13,3 +13,5 @@ pages:
   #url: /showcase
 - name: CV
   url: /cv
+- name: Making
+  url: /making
