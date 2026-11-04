@@ -32,7 +32,6 @@ AFTERMATH is a computational research project investigating how successful robot
   </figcaption>
 </figure>
 
-*Figure 1. Different successful robot plans can leave substantially different accessibility conditions for subsequent users.*
 
 
 ---
@@ -70,7 +69,6 @@ Cost-bounded counterfactual analysis then compares alternative task-complete arr
   </figcaption>
 </figure>
 
-*Figure 2. Evaluation pipeline connecting robot task completion, terminal-state reconstruction, capability-conditioned accessibility assessment, and counterfactual comparison.*<br>
 
 
 ---
@@ -102,8 +100,6 @@ This case illustrates why aggregate rankings and requirement-level outcomes shou
   </figcaption>
 </figure>
 
-
-*Figure 3. Tree C: a comparison of task-cost, aggregate-accessibility, and requirement-constrained terminal-state selections.*
 
 ---
 
