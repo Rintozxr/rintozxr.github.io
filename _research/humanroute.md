@@ -49,7 +49,7 @@ A multi-scale sampling framework was developed to represent route environments a
 
 <figure class="text-center my-4">
   <img
-    src="{{ '/assets/images/humanroute/figure1' | relative_url }}"
+    src="{{ '/assets/images/humanroute/figure1.png' | relative_url }}"
     alt="Seattle study routes and spatial sampling framework"
     class="img-fluid rounded"
     style="max-width: 850px; width: 100%;"
@@ -78,7 +78,7 @@ These conditions are designed to distinguish changes associated with the amount,
 
 <figure class="text-center my-4">
   <img
-    src="{{ '/assets/images/humanroute/figure2' | relative_url }}"
+    src="{{ '/assets/images/humanroute/figure2.png' | relative_url }}"
     alt="Visual context conditions and structured VLM assessment"
     class="img-fluid rounded"
     style="max-width: 850px; width: 100%;"
