@@ -20,7 +20,9 @@ permalink: /research/aftermath/
 ## What kind of space does a robot leave behind after completing its task?
 AFTERMATH is a computational research project investigating how successful robotic rearrangements alter the accessibility of shared environments for subsequent users. It examines the consequences of task-complete spatial configurations, the availability of less disruptive alternatives, and the differences between aggregate accessibility improvements and individual route requirements.<br>
 <br>
-![*Figure 1. Different successful robot plans can leave substantially different accessibility conditions for subsequent users.*<br>](rintozxr.github.io/assets/images/aftermath/aftermath-01-terminal-comparison.png)
+![Two task-complete robot arrangements with different accessibility outcomes](https://rintozxr.github.io/assets/images/aftermath/aftermath-01-terminal-comparison.png)
+
+*Figure 1. Different successful robot plans can leave substantially different accessibility conditions for subsequent users.*
 
 
 ---
