@@ -1,6 +1,6 @@
 ---
 layout: page
-title: VLM Capacity and Limitations
+title: HumanRoute
 permalink: /research/humanroute/
 ---
 
