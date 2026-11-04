@@ -105,7 +105,19 @@ Natural and other restorative sounds showed varying associations with social beh
 
 Interview findings suggested that stress reduction and exploratory interest could help explain why certain soundscapes support social engagement. These were qualitative interpretations rather than experimentally established psychological mechanisms.
 <br/>
-[Figure 3. Statistical associations and qualitative interpretations of soundscape–behaviour relationships.]
+
+<figure class="text-center my-4">
+  <img
+    src="{{ '/assets/images/bluesoundscape/figure4.png' | relative_url }}"
+    alt="Study Sites & Spatial Sampling"
+    class="img-fluid rounded"
+    style="max-width: 850px; width: 100%;"
+  >
+  <figcaption class="text-muted small mt-2">
+    <strong>Figure 4.</strong>
+    Statistical associations and qualitative interpretations of soundscape–behaviour relationships.
+  </figcaption>
+</figure>
 
 ## Implications
 
@@ -124,6 +136,3 @@ Programme: MSc Landscape and Wellbeing
 Supervisor: Prof. Simon Bell
 <br/><br/>
 Year: 2024
-
-Materials: Full Dissertation (PDF)
-
