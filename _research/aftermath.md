@@ -43,9 +43,11 @@ Conventional task-completion measures do not necessarily capture these downstrea
 <br>
 AFTERMATH investigates three questions.<br>
 <br>
-### E1: Terminal-State Audit: What accessibility consequences remain after successful task completion?<br>
-### E2: Counterfactual Audit: Could an alternative successful plan reduce these consequences within a limited additional robot cost?<br>
-### E3: Requirement-Conditioned Evaluation: Does an aggregate accessibility improvement necessarily satisfy a specified user's route requirements?<br>
+#### E1: Terminal-State Audit: What accessibility consequences remain after successful task completion?<br>
+<br>
+#### E2: Counterfactual Audit: Could an alternative successful plan reduce these consequences within a limited additional robot cost?<br>
+<br>
+#### E3: Requirement-Conditioned Evaluation: Does an aggregate accessibility improvement necessarily satisfy a specified user's route requirements?<br>
 
 ---
 
@@ -123,3 +125,5 @@ Counterfactual findings are limited to observed candidate arrangements and their
 ---
 
 ## Research Materials
+[View on GitHub](https://github.com/Rintozxr/Aftermath)
+[Technical report (coming soon)]
