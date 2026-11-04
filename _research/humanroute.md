@@ -46,6 +46,20 @@ The study uses street-level imagery collected from Mapillary along 13 pedestrian
 <br/>
 A multi-scale sampling framework was developed to represent route environments at different spatial intervals, including 12 m, 24 m, and 48 m. The current dataset includes 52 selected keyframes.
 <br/>
+
+<figure class="text-center my-4">
+  <img
+    src="{{ '/assets/images/humanroute/figure1' | relative_url }}"
+    alt="Seattle study routes and spatial sampling framework"
+    class="img-fluid rounded"
+    style="max-width: 850px; width: 100%;"
+  >
+  <figcaption class="text-muted small mt-2">
+    <strong>Figure 1.</strong>
+    Study area and spatial sampling framework.
+  </figcaption>
+</figure>
+
 The experimental framework considers:
 <br/>
 ### 1. Visual context
@@ -61,6 +75,21 @@ Assessments for a general adult pedestrian, an older adult, and a wheelchair or 
 Multi-dimensional environmental ratings alongside descriptions of route-level characteristics, including coherence and route patterns.
 <br/>
 These conditions are designed to distinguish changes associated with the amount, arrangement, and interpretation of visual evidence.
+
+<figure class="text-center my-4">
+  <img
+    src="{{ '/assets/images/humanroute/figure2' | relative_url }}"
+    alt="Visual context conditions and structured VLM assessment"
+    class="img-fluid rounded"
+    style="max-width: 850px; width: 100%;"
+  >
+  <figcaption class="text-muted small mt-2">
+    <strong>Figure 2.</strong>
+    Visual context conditions and structured assessment
+    framework. Single-frame and multi-frame inputs are
+    organized for profile-conditioned VLM evaluation.
+  </figcaption>
+</figure>
 
 ## Current Progress
 The project has established a street-view sampling workflow, a structured evaluation schema, and an initial VLM inference pipeline.
