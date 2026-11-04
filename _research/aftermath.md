@@ -117,7 +117,7 @@ This case illustrates why aggregate rankings and requirement-level outcomes shou
 
 ---
 
-### Limitations
+## Limitations
 AFTERMATH is a controlled computational study, not a deployment or human-subject evaluation. Mobility profiles are simplified geometric models, and functional detour thresholds are synthetic experimental requirements.<br>
 <br>
 Counterfactual findings are limited to observed candidate arrangements and their associated robot-cost references. The framework evaluates spatial consequences; it does not establish whether an autonomous agent understands or anticipates human needs.<br>
