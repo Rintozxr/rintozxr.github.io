@@ -48,7 +48,8 @@ For each terminal state, a geometric path scanner evaluates nine profile–desti
 <br>
 Cost-bounded counterfactual analysis then compares alternative task-complete arrangements using the same accessibility measures.<br>
 <br>
-![*Figure 2. Evaluation pipeline connecting robot task completion, terminal-state reconstruction, capability-conditioned accessibility assessment, and counterfactual comparison.*<br>](rintozxr.github.io/assets/images/aftermath/aftermath-02-framework.png)
+![Two task-complete robot arrangements with different accessibility outcomes](https://rintozxr.github.io/assets/images/aftermath/aftermath-02-framework.png)
+*Figure 2. Evaluation pipeline connecting robot task completion, terminal-state reconstruction, capability-conditioned accessibility assessment, and counterfactual comparison.*<br>
 
 
 ---
@@ -68,8 +69,8 @@ In the representative Tree C scenario, aggregate accessibility selection reduced
 A subsequent requirement-constrained comparison identified a third arrangement that satisfied the adult requirement while retaining improvements for other profiles.<br>
 This case illustrates why aggregate rankings and requirement-level outcomes should be examined separately.<br>
 <br>
-!*Figure 3. Tree C: a comparison of task-cost, aggregate-accessibility, and requirement-constrained terminal-state selections.*](rintozxr.github.io/assets/images/aftermath/aftermath-03-tree-c.png)
-
+![Two task-complete robot arrangements with different accessibility outcomes](https://rintozxr.github.io/assets/images/aftermath//aftermath-03-tree-c.png)
+*Figure 3. Tree C: a comparison of task-cost, aggregate-accessibility, and requirement-constrained terminal-state selections.*
 
 ---
 
