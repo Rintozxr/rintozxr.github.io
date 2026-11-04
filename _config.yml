@@ -46,6 +46,9 @@ collections:
 
   tools:
     output: true
+    
+  making:
+    output: true
 
   research:
     output: true
