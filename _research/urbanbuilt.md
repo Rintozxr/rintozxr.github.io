@@ -9,10 +9,11 @@ permalink: /research/urbanbuilt/
 **An exploratory study of street environments and urban safety in Nanping, China**
 
 <div class="project-meta">
+  <span class="badge">2020</span>
   <span class="badge">Undergraduate research</span>
-  <span class="badge">Spatial Accessibility</span>
-  <span class="badge">Human–Environment Interaction</span>
-  <span class="badge">Counterfactual Evaluation</span>
+  <span class="badge">Fieldwork</span>
+  <span class="badge">Urban Safety</span>
+  <span class="badge">Spatial Analysis</span>
 </div>
 
 ---
@@ -21,7 +22,7 @@ permalink: /research/urbanbuilt/
 
 How might the physical characteristics of streets shape opportunities for juvenile delinquency?
 <br/><br/>
-This early research project examined the relationship between urban built environments and juvenile delinquency in Yanping District, Nanping, China. Focusing on three streets—Gulou Street, Sihe Pedestrian Street, and Chaoyang Road—the study explored how spatial configuration, visibility, lighting, and surrounding land uses might influence opportunities for crime.
+This early research project examined the relationship between urban built environments and juvenile delinquency in Yanping District, Nanping, China. Focusing on three streets: Gulou Street, Sihe Pedestrian Street, and Chaoyang Road. The study explored how spatial configuration, visibility, lighting, and surrounding land uses might influence opportunities for crime.
 <br/><br/>
 
 ## Approach
