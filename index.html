@@ -1,97 +1,319 @@
+
 ---
 layout: default
-title : Homepage
+title: Homepage
 navbar_title: Home
 ---
 
+<style>
+  .home-story {
+    padding: 1.5rem;
+  }
+
+  .home-eyebrow {
+    font-size: 0.75rem;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: #6b7c72;
+    font-weight: 600;
+  }
+
+  .home-story-title {
+    font-size: 1.6rem;
+    line-height: 1.35;
+    margin: 0.6rem 0 0.8rem;
+  }
+
+  .home-story-intro {
+    color: #65736b;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+  }
+
+  .research-journey {
+    position: relative;
+    margin-top: 1.5rem;
+  }
+
+  .journey-step {
+    display: flex;
+    gap: 1.2rem;
+    padding-bottom: 2rem;
+    position: relative;
+  }
+
+  .journey-step:last-child {
+    padding-bottom: 0;
+  }
+
+  .journey-marker {
+    flex: 0 0 42px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #e9f0eb;
+    color: #28513f;
+    font-weight: 700;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .journey-step:not(:last-child)::before {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 42px;
+    bottom: 0;
+    width: 2px;
+    background: #e1e9e3;
+  }
+
+  .journey-content {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .journey-content h3 {
+    font-size: 1.15rem;
+    line-height: 1.45;
+    margin: 0 0 0.4rem;
+  }
+
+  .journey-project {
+    color: #52715f;
+    font-size: 0.82rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  .journey-content p {
+    color: #4e5d54;
+    line-height: 1.65;
+    font-size: 0.92rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .journey-link {
+    color: #28513f;
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-decoration: none;
+  }
+
+  .journey-link:hover {
+    text-decoration: underline;
+  }
+
+  .home-thread {
+    background: #f4f7f4;
+    border-left: 3px solid #315b49;
+    border-radius: 0 8px 8px 0;
+    padding: 1.3rem 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .home-thread h3 {
+    font-size: 1.15rem;
+    margin: 0.6rem 0;
+  }
+
+  .home-thread p {
+    font-size: 0.92rem;
+    line-height: 1.7;
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 767px) {
+    .home-story {
+      padding: 1.1rem;
+    }
+
+    .journey-step {
+      gap: 0.8rem;
+    }
+
+    .journey-marker {
+      flex-basis: 36px;
+      width: 36px;
+      height: 36px;
+    }
+
+    .journey-step:not(:last-child)::before {
+      left: 17px;
+      top: 36px;
+    }
+  }
+</style>
+
 <div class="row">
-    <div class="col-lg-3 col-md-4">
-        {% include widgets/profile_card_mini.html %}
-    </div>
 
-    <div class="col-lg-9 col-md-8">
+  <!-- LEFT: PROFILE -->
 
-        {% include widgets/profile_card_bio_only.html %}
+  <div class="col-lg-3 col-md-4">
+    {% include widgets/profile_card_mini.html %}
+  </div>
 
-        <div class="card border-0 shadow-sm rounded-xl my-4">
-            <div class="card-body">
-                <p class="text-muted mb-4">
-                    HOW MY QUESTIONS EVOLVED
-                </p>
-                <h3 class="card-title">One question led to another.</h3>
-                <p class="text-muted mb-4">
-                    It started with observing people in real places. Then the questions got a little more complicated.
-                </p>
+  <!-- RIGHT: BIO AND RESEARCH STORY -->
 
-                <div class="card border-0 shadow-sm rounded-xl my-3">
-                    <div class="card-body">
-                        <h4 class="card-title">What do people actually experience?</h4>
-                        <p class="text-muted mb-2">
-                            Blue-Space Soundscape
-                        </p>
-                        <p>
-                            Field observations revealed that restorative environments don't always encourage social interaction.
-                        </p>
-                        <p>
-                            <a class="btn btn-sm btn-primary" href="{{ '/research/blue-soundscape/' | relative_url }}">Read More</a>
-                        </p>
-                    </div>
-                </div>
+  <div class="col-lg-9 col-md-8">
 
-                <div class="card border-0 shadow-sm rounded-xl my-3">
-                    <div class="card-body">
-                        <h4 class="card-title">Can we look beyond a few places?</h4>
-                        <p class="text-muted mb-2">
-                            StreetSignals
-                        </p>
-                        <p>
-                            Street imagery and AI opened possibilities for studying environments at a larger scale.
-                        </p>
-                        <p>
-                            <a class="btn btn-sm btn-primary" href="{{ '/research/streetsignals/' | relative_url }}">Read More</a>
-                        </p>
-                    </div>
-                </div>
+    {% include widgets/profile_card_bio_only.html %}
 
-                <div class="card border-0 shadow-sm rounded-xl my-3">
-                    <div class="card-body">
-                        <h4 class="card-title">But whose perspective are we using?</h4>
-                        <p class="text-muted mb-2">
-                            HumanRoute
-                        </p>
-                        <p>
-                            The same walking environment may mean very different things to different users.
-                        <p>
-                            <a class="btn btn-sm btn-primary" href="{{ '/research/humanroute/' | relative_url }}">Read More</a>
-                        </p>
-                    </div>
-                </div>
+    <div class="card border-0 shadow-sm rounded-xl my-4">
+      <div class="card-body home-story">
 
-                <div class="card border-0 shadow-sm rounded-xl my-3">
-                    <div class="card-body">
-                        <h4 class="card-title">What if AI starts moving things around?</h4>
-                        <p class="text-muted mb-2">
-                            AFTERMATH
-                        </p>
-                        <p>
-                            A robot can finish its task while leaving behind a space that no longer works for everyone.
-                        </p>
-                        <p>
-                            <a class="btn btn-sm btn-primary" href="{{ '/research/aftermath/' | relative_url }}">Read More</a>
-                        </p>
-                    </div>
-                </div>
-             </div>
-        <div class="card border-0 shadow-sm rounded-xl my-3">
-                    <div class="card-body">
-                        <p class="text-muted mb-2">
-                            THE THREAD CONNECTING IT ALL
-                        </p>
-                        <h4 class="card-title">An environment is never experienced in isolation.</h4>
-                        <p>
-                            Its meaning depends on who encounters it, what they need to do, and how the environment changes around them.
-                        </p>
+        <div class="home-eyebrow">
+          How My Questions Evolved
         </div>
 
+        <h2 class="home-story-title">
+          One question led to another.
+        </h2>
+
+        <p class="home-story-intro">
+          It started with observing people in real places.
+          Then the questions got a little more complicated.
+        </p>
+
+        <div class="research-journey">
+
+          <!-- 01: BLUE SPACE -->
+
+          <div class="journey-step">
+            <div class="journey-marker">01</div>
+
+            <div class="journey-content">
+              <h3>What do people actually experience?</h3>
+
+              <div class="journey-project">
+                Blue-Space Soundscape · 2024
+              </div>
+
+              <p>
+                Field observations revealed that restorative
+                environments do not necessarily encourage
+                more social interaction.
+              </p>
+
+              <a class="journey-link"
+                 href="{{ '/research/blue-soundscape/' | relative_url }}">
+                Explore project &rarr;
+              </a>
+            </div>
+          </div>
+
+          <!-- 02: STREETSIGNALS -->
+
+          <div class="journey-step">
+            <div class="journey-marker">02</div>
+
+            <div class="journey-content">
+              <h3>Can we look beyond a few places?</h3>
+
+              <div class="journey-project">
+                StreetSignals · 2025
+              </div>
+
+              <p>
+                Street-view imagery and computational methods
+                opened possibilities for examining urban
+                environments at a larger scale, while raising
+                questions about what visible features can represent.
+              </p>
+
+              <a class="journey-link"
+                 href="{{ '/research/streetsignals/' | relative_url }}">
+                Explore project &rarr;
+              </a>
+            </div>
+          </div>
+
+          <!-- 03: HUMANROUTE -->
+
+          <div class="journey-step">
+            <div class="journey-marker">03</div>
+
+            <div class="journey-content">
+              <h3>But whose perspective are we using?</h3>
+
+              <div class="journey-project">
+                HumanRoute · 2026
+              </div>
+
+              <p>
+                The same walking environment may mean very
+                different things to people with different
+                mobility needs. Can multimodal models
+                account for those differences?
+              </p>
+
+              <a class="journey-link"
+                 href="{{ '/research/humanroute/' | relative_url }}">
+                Explore project &rarr;
+              </a>
+            </div>
+          </div>
+
+          <!-- 04: AFTERMATH -->
+
+          <div class="journey-step">
+            <div class="journey-marker">04</div>
+
+            <div class="journey-content">
+              <h3>What if AI starts moving things around?</h3>
+
+              <div class="journey-project">
+                AFTERMATH · 2026
+              </div>
+
+              <p>
+                A robot can successfully complete its task
+                while leaving behind a space that no longer
+                works for everyone.
+              </p>
+
+              <a class="journey-link"
+                 href="{{ '/research/aftermath/' | relative_url }}">
+                Explore project &rarr;
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- CONCLUDING IDEA -->
+
+        <div class="home-thread">
+
+          <div class="home-eyebrow">
+            The Thread Connecting It All
+          </div>
+
+          <h3>
+            An environment is never experienced in isolation.
+          </h3>
+
+          <p>
+            Its meaning depends on who encounters it,
+            what they need to do, and how the environment
+            changes around them.
+          </p>
+
+        </div>
+
+        <p class="mt-4 mb-0">
+          <a class="journey-link"
+             href="{{ '/research/' | relative_url }}">
+            Explore all research &rarr;
+          </a>
+        </p>
+
+      </div>
     </div>
+
+  </div>
 </div>
