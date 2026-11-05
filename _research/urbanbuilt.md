@@ -47,4 +47,4 @@ Methods: Space Syntax · Field Observation · Interviews · Spatial Analysis
 <br/><br/>
 Research Area: Urban Safety · Built Environment · Human Behaviour
 <br/><br/>
-[View Orginal Report (Chinese)](assets/pdf/Urban Built Environments and Juvenile Delinquency（CN）.pdf)
+[View Original Report (PDF)]({{ 'assets/pdf/Urban Built Environments and Juvenile Delinquency（CN）.pdf' | relative_url }})
