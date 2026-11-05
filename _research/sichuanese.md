@@ -31,54 +31,48 @@ The project used Sichuan dialect as a cultural and auditory theme, exploring how
 ## Approach
 
 The design integrated several strands of analysis and intervention:
-<br/>
-Sound environment analysis: CADNA/A noise simulation and site assessment to identify areas affected by traffic noise.
-<br/>
-Soundscape planning: Spatial zoning and landscape interventions, including terrain modification, vegetation, and screening elements, to improve the proposed acoustic environment.
-<br/>
+
+**Sound environment analysis:** CADNA/A noise simulation and site assessment to identify areas affected by traffic noise.
+
+**Soundscape planning:** Spatial zoning and landscape interventions, including terrain modification, vegetation, and screening elements, to improve the proposed acoustic environment.
 
 <figure class="text-center my-4">
   <img
     src="{{ '/assets/images/sichuanese/figure1.png' | relative_url }}"
-    alt="Existing Sound Environment.]"
+    alt="Existing sound environment analysis"
     class="img-fluid rounded"
     style="max-width: 850px; width: 100%;"
   >
   <figcaption class="text-muted small mt-2">
-    <strong>Figure 1.</strong>
-    Soundscape analysis and pretreatments.]
+    <strong>Figure 1.</strong> Soundscape analysis and proposed interventions.
   </figcaption>
 </figure>
 
-Cultural interpretation: Translation of Sichuan dialect expressions and speech characteristics into spatial forms, installations, and visitor experiences.
-<br/>
+**Cultural interpretation:** Translation of Sichuan dialect expressions and speech characteristics into spatial forms, installations, and visitor experiences.
 
 <figure class="text-center my-4">
   <img
-    src="{{ 'assets/images/sichuanese/figure3.png' | relative_url }}"
-    alt="spatial formation.]"
+    src="{{ '/assets/images/sichuanese/figure3.png' | relative_url }}"
+    alt="Spatial formation logic"
     class="img-fluid rounded"
     style="max-width: 850px; width: 100%;"
   >
   <figcaption class="text-muted small mt-2">
-    <strong>Figure 2.</strong>
-    Spatial formation logic.]
+    <strong>Figure 2.</strong> Spatial formation logic.
   </figcaption>
 </figure>
 
-Landscape design: Development of a park masterplan and detailed public-space proposals responding to ecological, recreational, and cultural needs.
-<br/>
+**Landscape design:** Development of a park masterplan and detailed public-space proposals responding to ecological, recreational, and cultural needs.
 
 <figure class="text-center my-4">
   <img
-    src="{{ 'assets/images/sichuanese/figure2.png' | relative_url }}"
-    alt="masterplan.]"
+    src="{{ '/assets/images/sichuanese/figure2.png' | relative_url }}"
+    alt="Park masterplan"
     class="img-fluid rounded"
     style="max-width: 850px; width: 100%;"
   >
   <figcaption class="text-muted small mt-2">
-    <strong>Figure 3.</strong>
-    Masterplan.]
+    <strong>Figure 3.</strong> Park masterplan.
   </figcaption>
 </figure>
 
