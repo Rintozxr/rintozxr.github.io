@@ -9,6 +9,7 @@ permalink: /research/blue-soundscape/
 **Exploring the Relationship Between Restorative Soundscapes and Social Interaction in Urban Waterfronts**
 
 <div class="project-meta">
+  <span class="badge">2024</span>
   <span class="badge">Master's dissertation</span>
   <span class="badge">Fieldwork</span>
   <span class="badge">Environmental Psychology</span>
