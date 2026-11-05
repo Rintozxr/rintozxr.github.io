@@ -9,6 +9,7 @@ permalink: /research/aftermath/
 **Evaluating Terminal-State Externalities in Embodied Spatial Planning**
 
 <div class="project-meta">
+  <span class="badge">2026</span>
   <span class="badge">Independent Research</span>
   <span class="badge">Spatial Accessibility</span>
   <span class="badge">Human–Environment Interaction</span>
