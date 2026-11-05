@@ -9,6 +9,7 @@ permalink: /research/streetsignals/
 **Reading Urban Traffic Patterns from Street-View Imagery**
 
 <div class="project-meta">
+  <span class="badge">2025</span>
   <span class="badge">Methodological Pilot Study</span>
   <span class="badge">Street-Level Imagery</span>
   <span class="badge">Semantic Segmentation</span>
