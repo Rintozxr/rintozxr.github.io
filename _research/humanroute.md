@@ -9,6 +9,7 @@ permalink: /research/humanroute/
 **How Does Visual Context Shape VLM Assessments of Pedestrian Routes?**
 
 <div class="project-meta">
+  <span class="badge">2026</span>
   <span class="badge">Independent Research</span>
   <span class="badge">Vision-Language Models</span>
   <span class="badge">Street-View Imagery</span>
