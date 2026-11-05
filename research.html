@@ -1,3 +1,4 @@
+
 ---
 layout: page
 title: Research
@@ -5,177 +6,452 @@ navbar_title: Research
 permalink: /research/
 ---
 
-<h1>Research</h1>
+<style>
+  .research-page {
+    max-width: 980px;
+    margin: 0 auto;
+  }
 
-<div class="card border-0 shadow-sm rounded-xl my-4">
-  <div class="card-body">
-    <h2 class="card-title">AFTERMATH：Evaluating Terminal-State Externalities in Embodied Spatial Planning</h2>
-    <p class="text-muted mb-2">
-      2026 · Spatial Accessibility · Human–Environment Interaction · Counterfactual Evaluation
-    </p>
-    <p>
-      When a robot successfully completes its task, what happens to the people who use the space afterward?
-    </p>
-    <p>
-     AFTERMATH examines how task-successful robotic rearrangements can create unequal accessibility outcomes, revealing tensions between aggregate evaluations and individual mobility requirements.
-    </p>
-    <p>
-      <span class="badge badge-light">Ongoing</span>
-      <span class="badge badge-light">Independent Research</span>
-    </p>
-    <p>
-      <a class="btn btn-sm btn-primary"
-         href="{{ '/research/aftermath/' | relative_url }}">
-         Read More
-      </a>
-    </p>
+  .research-intro {
+    max-width: 800px;
+    line-height: 1.8;
+    color: #52615a;
+    margin-bottom: 2.5rem;
+  }
+
+  .research-section {
+    margin-top: 2.8rem;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 1px solid #e4e9e5;
+  }
+
+  .research-section h2 {
+    font-size: 1.45rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .research-section p {
+    font-size: 0.9rem;
+    color: #68756e;
+    margin-bottom: 0;
+  }
+
+  .research-card {
+    border: 1px solid #edf0ed !important;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 1.2rem;
+  }
+
+  .research-card .card-body {
+    padding: 1.5rem;
+  }
+
+  .research-meta {
+    font-size: 0.78rem;
+    color: #68756e;
+    margin-bottom: 0.6rem;
+  }
+
+  .research-card h3 {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    margin-bottom: 0.75rem;
+  }
+
+  .research-question {
+    font-weight: 600;
+    line-height: 1.55;
+    margin-bottom: 0.75rem;
+  }
+
+  .research-description {
+    color: #49564f;
+    line-height: 1.7;
+    font-size: 0.92rem;
+  }
+
+  .research-evidence {
+    border-left: 3px solid #315b49;
+    padding-left: 0.85rem;
+    margin: 1rem 0;
+    font-size: 0.88rem;
+    line-height: 1.6;
+  }
+
+  .research-image {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    background: #f4f6f4;
+    border-radius: 8px;
+  }
+
+  .research-link {
+    color: #28513f;
+    font-weight: 600;
+    font-size: 0.88rem;
+    text-decoration: none;
+  }
+
+  .research-link:hover {
+    color: #163d2b;
+    text-decoration: underline;
+  }
+
+  .research-stat {
+    background: #f5f7f5;
+    border-radius: 8px;
+    text-align: center;
+    padding: 0.8rem 0.3rem;
+    height: 100%;
+  }
+
+  .research-stat strong {
+    display: block;
+    font-size: 1.35rem;
+    color: #284c3b;
+  }
+
+  .research-stat span {
+    display: block;
+    font-size: 0.73rem;
+    color: #68756e;
+  }
+
+  .earlier-card h3 {
+    font-size: 1.05rem;
+  }
+
+  @media (max-width: 767px) {
+    .research-card .card-body {
+      padding: 1.1rem;
+    }
+
+    .research-image {
+      height: 190px;
+      margin-bottom: 1rem;
+    }
+  }
+</style>
+
+<div class="research-page">
+
+  <h1>Research</h1>
+
+  <p class="research-intro">
+    My research examines how people perceive, navigate, and
+    interact with built environments, and how computational
+    systems represent these relationships. Building on a
+    background in landscape architecture and environmental
+    behaviour research, I now investigate human-centred
+    spatial AI, with particular interests in accessibility,
+    multimodal perception, and the consequences of automated
+    spatial decisions.
+  </p>
+
+  <!-- CURRENT RESEARCH -->
+
+  <div class="research-section">
+    <h2>Current Research</h2>
+    <p>Human-centred spatial AI, accessibility, and multimodal reasoning.</p>
   </div>
-</div>
 
-<div class="card border-0 shadow-sm rounded-xl my-4">
-  <div class="card-body">
-    <h2 class="card-title">HumanRoute: Evaluating Pedestrian Routes with Vision–Language Models</h2>
-    <p class="text-muted mb-2">
-      2026 · Vision-Language Models · Spatial Intelligence · Street-View Imagery · Accessibility Assessment · Human-centered AI
-    </p>
-    <p>
-      Can vision-language models assess a pedestrian route from the perspective of people with different mobility needs?
-    </p>
-    <p>
-      HumanRoute investigates how visual context and user profiles shape model-generated assessments of urban walking environments.
-    </p>
-    <p>
-      <span class="badge badge-light">Ongoing</span>
-      <span class="badge badge-light">Independent Research</span>
-    </p>
-    <p>
-      <a class="btn btn-sm btn-primary"
-         href="{{ '/research/humanroute/' | relative_url }}">
-         Read More
-      </a>
-    </p>
+  <div class="card research-card shadow-sm">
+    <div class="card-body">
+      <div class="row align-items-center">
+
+        <div class="col-md-5 mb-3 mb-md-0">
+          <img
+            src="/assets/images/aftermath/aftermath-01-terminal-comparison.png"
+            class="research-image"
+            alt="Comparison of accessibility outcomes in AFTERMATH">
+        </div>
+
+        <div class="col-md-7">
+          <div class="research-meta">
+            2026 · Embodied AI · Accessibility
+          </div>
+
+          <h3>AFTERMATH</h3>
+
+          <p class="research-question">
+            When a robot completes its task, what happens
+            to the people who use the space afterward?
+          </p>
+
+          <p class="research-description">
+            A controlled spatial-planning study examining
+            how task-successful robotic rearrangements can
+            produce unequal accessibility outcomes.
+          </p>
+
+          <div class="research-evidence">
+            <strong>Key observation</strong>
+            <div>
+              Successful robot plans can leave substantially
+              different accessibility conditions, exposing
+              tensions between aggregate evaluation and
+              individual mobility requirements.
+            </div>
+          </div>
+
+          <a class="research-link"
+             href="{{ '/research/aftermath/' | relative_url }}">
+            View Research &rarr;
+          </a>
+        </div>
+
+      </div>
+    </div>
   </div>
-</div>
 
-<div class="card border-0 shadow-sm rounded-xl my-4">
-  <div class="card-body">
-    <h2 class="card-title">StreetSignals: Reading Urban Traffic Patterns from Street-View Imagery</h2>
-    <p class="text-muted mb-2">
-      2025 · Street-Level Imagery · Semantic Segmentation · Environmental Exposure ·  GeoAI
-    </p>
-    <p>
-      What can street-level imagery reveal about urban environments—and what remains beyond its reach?
-    </p>
-    <p>
-     StreetSignals explores the extraction of spatial indicators from street-view imagery while examining the limits of using visible environmental features as proxies for exposure.
-    </p>
-    <p>
-      <span class="badge badge-light">Methodological Pilot Study</span>
-    </p>
-    <p>
-      <a class="btn btn-sm btn-primary"
-         href="{{ '/research/streetsignals/' | relative_url }}">
-         Read More
-      </a>
-    </p>
+  <div class="card research-card shadow-sm">
+    <div class="card-body">
+      <div class="row align-items-center">
+
+        <div class="col-md-5 mb-3 mb-md-0">
+          <!-- Replace this placeholder with a HumanRoute figure later -->
+          <div class="research-image d-flex align-items-center justify-content-center text-center p-4">
+            <div>
+              <strong>HumanRoute</strong>
+              <p class="text-muted small mt-2 mb-0">
+                Street-view imagery<br>
+                Multi-frame context<br>
+                Mobility profiles
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-7">
+          <div class="research-meta">
+            2026 · Vision-Language Models · Pedestrian Accessibility
+          </div>
+
+          <h3>HumanRoute</h3>
+
+          <p class="research-question">
+            Can vision-language models assess a pedestrian
+            route from the perspective of people with
+            different mobility needs?
+          </p>
+
+          <p class="research-description">
+            HumanRoute investigates how visual context and
+            user profiles shape model-generated assessments
+            of urban walking environments.
+          </p>
+
+          <div class="research-evidence">
+            <strong>Research approach</strong>
+            <div>
+              Multi-frame street-view sampling and
+              profile-conditioned assessments of pedestrian
+              routes, examining the role of visual context.
+            </div>
+          </div>
+
+          <a class="research-link"
+             href="{{ '/research/humanroute/' | relative_url }}">
+            View Research &rarr;
+          </a>
+        </div>
+
+      </div>
+    </div>
   </div>
-</div>
 
-<div class="card border-0 shadow-sm rounded-xl my-4">
-  <div class="card-body">
-    <h2 class="card-title">Blue-Space Soundscape Restoration and Social Behaviour</h2>
-    <p class="text-muted mb-2">
-      2024 · Fieldwork · Environmental Psychology ·  Soundscape · Mix-method study
+  <!-- PREVIOUS RESEARCH -->
 
-    </p>
-    <p>
-      Does a more restorative soundscape necessarily encourage more social interaction?
-    </p>
-    <p>
-      Combining acoustic measurements, behavioural observations, and interviews across three urban waterfront sites, this study reveals how restorative environments can support different—and sometimes competing—forms of human experience.
-      The dissertation was awarded 82/100 at the University of Edinburgh as Distinction.
-    </p>
-    <p>
-      <span class="badge badge-light">MSc Dissertation</span>
-    </p>
-    <p>
-      <a class="btn btn-sm btn-primary"
+  <div class="research-section">
+    <h2>Previous Research</h2>
+    <p>Environmental perception, fieldwork, and spatial analysis.</p>
+  </div>
+
+  <div class="card research-card shadow-sm">
+    <div class="card-body">
+
+      <div class="research-meta">
+        2024 · MSc Dissertation · Mixed-Methods Fieldwork
+      </div>
+
+      <h3>Blue-Space Soundscape Restoration and Social Behaviour</h3>
+
+      <p class="research-question">
+        Does a more restorative soundscape necessarily
+        encourage more social interaction?
+      </p>
+
+      <p class="research-description">
+        Combining acoustic measurements, behavioural
+        observations, and interviews across urban waterfront
+        environments, this study examines how restorative
+        soundscapes relate to different forms of human
+        experience and social behaviour.
+      </p>
+
+      <div class="row my-3">
+        <div class="col-4">
+          <div class="research-stat">
+            <strong>65</strong>
+            <span>Spatial sites</span>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="research-stat">
+            <strong>1,780</strong>
+            <span>Observations</span>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="research-stat">
+            <strong>55</strong>
+            <span>Interviews</span>
+          </div>
+        </div>
+      </div>
+
+      <p class="research-description">
+        <strong>Recognition:</strong>
+        MSc Dissertation, University of Edinburgh · 82/100 (Distinction)
+      </p>
+
+      <a class="research-link"
          href="{{ '/research/blue-soundscape/' | relative_url }}">
-         Read More
+        View Research &rarr;
       </a>
-    </p>
-  </div>
-</div>
 
-<div class="card border-0 shadow-sm rounded-xl my-4">
-  <div class="card-body">
-    <h2 class="card-title">A Journey Through Sichuan Dialect: Soundscape Design for Shudao Tongqu Park, Chengdu, China</h2>
-    <p class="text-muted mb-2">
-     2022 · Undergraduate Graduation Design  · Soundscape · Urban Park · Landscape Design
-    </p>
-    <p>
-      How can soundscape design connect cultural identity with the experience of urban public space?
-    </p>
-    <p>
-      Exploring how acoustic simulation, soundscape planning, and regional dialect culture can inform the design of urban public spaces.
-    </p>
-    <p>
-      <span class="badge badge-light">Undergraduate Graduation Design</span>
-    </p>
-    <p>
-      <a class="btn btn-sm btn-primary"
+    </div>
+  </div>
+
+  <div class="card research-card shadow-sm">
+    <div class="card-body">
+
+      <div class="research-meta">
+        2025 · Methodological Pilot · GeoAI
+      </div>
+
+      <h3>StreetSignals: Reading Urban Traffic Patterns from Street-View Imagery</h3>
+
+      <p class="research-question">
+        What can street-level imagery reveal about urban
+        environments—and what remains beyond its reach?
+      </p>
+
+      <p class="research-description">
+        A methodological pilot exploring the extraction of
+        spatial indicators from street-view imagery, while
+        examining the limitations of visible environmental
+        features as proxies for environmental exposure.
+      </p>
+
+      <a class="research-link"
+         href="{{ '/research/streetsignals/' | relative_url }}">
+        View Research &rarr;
+      </a>
+
+    </div>
+  </div>
+
+  <!-- EARLIER WORK -->
+
+  <div class="research-section">
+    <h2>Earlier Work</h2>
+    <p>Foundations in landscape architecture, soundscape design, and urban safety.</p>
+  </div>
+
+  <div class="card research-card earlier-card shadow-sm">
+    <div class="card-body">
+
+      <div class="research-meta">
+        2022 · Undergraduate Graduation Design
+      </div>
+
+      <h3>A Journey Through Sichuan Dialect</h3>
+
+      <p class="research-question">
+        Can a dialect become a landscape?
+      </p>
+
+      <p class="research-description">
+        A soundscape-oriented park design integrating
+        acoustic simulation, spatial planning, and Sichuan
+        dialect culture in Chengdu, China.
+      </p>
+
+      <p class="research-description">
+        <strong>Recognition:</strong>
+        2nd in graduating cohort · Third Prize,
+        National College Student Soundscape Design Competition
+      </p>
+
+      <a class="research-link"
          href="{{ '/research/sichuanese/' | relative_url }}">
-         Read More
+        View Design &rarr;
       </a>
-    </p>
+
+    </div>
   </div>
-</div>
 
-<div class="card border-0 shadow-sm rounded-xl my-4">
-  <div class="card-body">
-    <h2 class="card-title">Urban Built Environments and Juvenile Delinquency</h2>
-    <p class="text-muted mb-2">
-     2020 · Undergraduate Research · Fieldwork · Urban Safety · Spatial Analysis
+  <div class="card research-card earlier-card shadow-sm">
+    <div class="card-body">
 
-    </p>
-    <p>
-      How might street environments shape opportunities for juvenile delinquency?
-    </p>
-    <p>
-      An early research project in Nanping, China, combining space syntax, street-level observations, and interviews to examine how visibility, connectivity, lighting, and land use relate to urban safety. The study translated these observations into spatial design recommendations for safer and more inclusive streets.
-      This project received a nomination in the **2020 WUPEN City International Sustainable City Report Competition**.
-    </p>
-    <p>
-      <span class="badge badge-light">Undergraduate Research</span>
-    </p>
-    <p>
-      <a class="btn btn-sm btn-primary"
+      <div class="research-meta">
+        2020 · Undergraduate Research · Urban Safety
+      </div>
+
+      <h3>Urban Built Environments and Juvenile Delinquency</h3>
+
+      <p class="research-question">
+        How might street environments shape opportunities
+        for juvenile delinquency?
+      </p>
+
+      <p class="research-description">
+        An exploratory study in Nanping, China, combining
+        space syntax, field observations, and interviews to
+        examine street environments and urban safety.
+      </p>
+
+      <p class="research-description">
+        <strong>Recognition:</strong>
+        Nominated, 2020 WUPEN City International
+        Sustainable City Report Competition
+      </p>
+
+      <a class="research-link"
          href="{{ '/research/urbanbuilt/' | relative_url }}">
-         Read More
+        View Research &rarr;
       </a>
-    </p>
+
+    </div>
   </div>
-</div>
 
-<div class="card border-0 shadow-sm rounded-xl my-4">
-  <div class="card-body">
-    <h2 class="card-title">Earlier Works in Landscape Architecture</h2>
-    <p class="text-muted mb-2">
-      2020-2022 · Portfolio · Landscape Architecture ·  Undergraduate works
+  <div class="card research-card earlier-card shadow-sm">
+    <div class="card-body">
 
-    </p>
-    <p>
-      Before moving into environmental research and human-centered AI, I was trained in landscape architecture. This portfolio features selected design projects from my undergraduate years, reflecting my early interests in spatial organization, environmental systems, and human experiences of place.
-    </p>
-    <p>
-      <span class="badge badge-light">Undergraduate Portfolio</span>
-    </p>
-    <p>
-      <a class="btn btn-sm btn-primary"
-         href="{{ '/assets/pdf/Portfolio.pdf' | relative_url }}">
-         View Portfolio
+      <div class="research-meta">
+        2020–2022 · Undergraduate Design Portfolio
+      </div>
+
+      <h3>Earlier Works in Landscape Architecture</h3>
+
+      <p class="research-description">
+        Selected landscape architecture projects exploring
+        spatial organisation, environmental systems, and
+        human experiences of place.
+      </p>
+
+      <a class="research-link"
+         href="{{ '/assets/pdf/Portfolio.pdf' | relative_url }}"
+         target="_blank"
+         rel="noopener noreferrer">
+        View Portfolio (PDF) &rarr;
       </a>
-    </p>
-  </div>
-</div>
 
+    </div>
+  </div>
+
+</div>
