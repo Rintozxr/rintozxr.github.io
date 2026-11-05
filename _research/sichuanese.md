@@ -54,13 +54,14 @@ The design integrated several strands of analysis and intervention:
 
 <figure class="text-center my-4">
   <img
-    src="{{ '/assets/images/sichuanese/figure3.png' | relative_url }}"
-    alt="Spatial formation logic"
+    src="/assets/images/sichuanese/figure3.png"
+    alt="Spatial formation"
     class="img-fluid rounded"
     style="max-width: 850px; width: 100%;"
   >
   <figcaption class="text-muted small mt-2">
-    <strong>Figure 2.</strong> Spatial formation logic.
+    <strong>Figure 2.</strong>
+    Spatial Formation.
   </figcaption>
 </figure>
 
@@ -68,13 +69,14 @@ The design integrated several strands of analysis and intervention:
 
 <figure class="text-center my-4">
   <img
-    src="{{ '/assets/images/sichuanese/figure2.png' | relative_url }}"
-    alt="Park masterplan"
+    src="/assets/images/sichuanese/figure2.png"
+    alt="Masterplan"
     class="img-fluid rounded"
     style="max-width: 850px; width: 100%;"
   >
   <figcaption class="text-muted small mt-2">
-    <strong>Figure 3.</strong> Park masterplan.
+    <strong>Figure 3.</strong>
+    Masterplan.
   </figcaption>
 </figure>
 
