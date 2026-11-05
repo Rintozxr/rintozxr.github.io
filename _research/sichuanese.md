@@ -19,8 +19,8 @@ permalink: /research/sichuanese/
 ---
 
 ## Overview
-![Test image](https://rintozxr.github.io/assets/images/sichuanese/figure1.png)
-<img src="/assets/images/sichuanese/figure1.png" alt="Test image" width="600">
+
+
 How can soundscape design connect environmental comfort, cultural identity, and people's experience of urban public space?
 <br/>
 This undergraduate graduation project proposed a soundscape-oriented landscape design for Shudao Tongqu Park, a 33.2-hectare planned urban park in Chengdu, China.
@@ -39,13 +39,14 @@ The design integrated several strands of analysis and intervention:
 
 <figure class="text-center my-4">
   <img
-    src="{{ '/assets/images/sichuanese/figure1.png' | relative_url }}"
+    src="/assets/images/sichuanese/figure1.png"
     alt="Existing sound environment analysis"
     class="img-fluid rounded"
     style="max-width: 850px; width: 100%;"
   >
   <figcaption class="text-muted small mt-2">
-    <strong>Figure 1.</strong> Soundscape analysis and proposed interventions.
+    <strong>Figure 1.</strong>
+    Soundscape analysis and proposed interventions.
   </figcaption>
 </figure>
 
