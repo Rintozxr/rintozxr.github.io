@@ -36,10 +36,52 @@ Sound environment analysis: CADNA/A noise simulation and site assessment to iden
 <br/>
 Soundscape planning: Spatial zoning and landscape interventions, including terrain modification, vegetation, and screening elements, to improve the proposed acoustic environment.
 <br/>
+
+<figure class="text-center my-4">
+  <img
+    src="{{ '/assets/images/sichuanses/figure1.png' | relative_url }}"
+    alt="Existing Sound Environment.]"
+    class="img-fluid rounded"
+    style="max-width: 850px; width: 100%;"
+  >
+  <figcaption class="text-muted small mt-2">
+    <strong>Figure 1.</strong>
+    Soundscape analysis and pretreatments.]
+  </figcaption>
+</figure>
+
 Cultural interpretation: Translation of Sichuan dialect expressions and speech characteristics into spatial forms, installations, and visitor experiences.
 <br/>
+
+<figure class="text-center my-4">
+  <img
+    src="{{ '/assets/images/sichuanses/figure3.png' | relative_url }}"
+    alt="spatial formation.]"
+    class="img-fluid rounded"
+    style="max-width: 850px; width: 100%;"
+  >
+  <figcaption class="text-muted small mt-2">
+    <strong>Figure 2.</strong>
+    Spatial formation logic.]
+  </figcaption>
+</figure>
+
 Landscape design: Development of a park masterplan and detailed public-space proposals responding to ecological, recreational, and cultural needs.
 <br/>
+
+<figure class="text-center my-4">
+  <img
+    src="{{ '/assets/images/sichuanses/figure2.png' | relative_url }}"
+    alt="masterplan.]"
+    class="img-fluid rounded"
+    style="max-width: 850px; width: 100%;"
+  >
+  <figcaption class="text-muted small mt-2">
+    <strong>Figure 3.</strong>
+    Masterplan.]
+  </figcaption>
+</figure>
+
 
 ## Reflection
 This project marked an early attempt to move beyond visually oriented landscape design and consider how auditory experience shapes people's relationships with urban environments.
