@@ -39,7 +39,7 @@ Soundscape planning: Spatial zoning and landscape interventions, including terra
 
 <figure class="text-center my-4">
   <img
-    src="{{ '/assets/images/sichuanses/figure1.png' | relative_url }}"
+    src="{{ '/assets/images/sichuanese/figure1.png' | relative_url }}"
     alt="Existing Sound Environment.]"
     class="img-fluid rounded"
     style="max-width: 850px; width: 100%;"
@@ -55,7 +55,7 @@ Cultural interpretation: Translation of Sichuan dialect expressions and speech c
 
 <figure class="text-center my-4">
   <img
-    src="{{ '/assets/images/sichuanses/figure3.png' | relative_url }}"
+    src="{{ 'assets/images/sichuanese/figure3.png' | relative_url }}"
     alt="spatial formation.]"
     class="img-fluid rounded"
     style="max-width: 850px; width: 100%;"
@@ -71,7 +71,7 @@ Landscape design: Development of a park masterplan and detailed public-space pro
 
 <figure class="text-center my-4">
   <img
-    src="{{ '/assets/images/sichuanses/figure2.png' | relative_url }}"
+    src="{{ 'assets/images/sichuanese/figure2.png' | relative_url }}"
     alt="masterplan.]"
     class="img-fluid rounded"
     style="max-width: 850px; width: 100%;"
