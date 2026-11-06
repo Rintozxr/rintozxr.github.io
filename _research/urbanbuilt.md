@@ -11,9 +11,11 @@ permalink: /research/urbanbuilt/
 <div class="project-meta">
   <span class="badge">2020</span>
   <span class="badge">Undergraduate research</span>
+  <span class="badge">Groupwork with Huaying Mao, Junyi Lin, and Tiejun He</span>
   <span class="badge">Fieldwork</span>
   <span class="badge">Urban Safety</span>
   <span class="badge">Spatial Analysis</span>
+  
 </div>
 
 ---
