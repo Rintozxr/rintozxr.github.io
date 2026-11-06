@@ -38,7 +38,19 @@ Conventional SVI-based assessment often summarizes semantic segmentation outputs
 <br/>
 The proposal identified four potential limitations: fragmented flow across successive viewpoints, dislocated spatial elements, limited representation of structural relationships, and perceptual flattening when distinct configurations are reduced to similar semantic proportions.
 <br/>
-Figure 1. Comparison of Clyde riverside street views, semantic segmentation outputs, and observed behavioural patterns.
+<figure class="text-center my-4">
+  <img
+    src="{{ 'assets/images/beyondsemantics/figure1.png' | relative_url }}"
+    alt="idea source"
+    class="img-fluid rounded"
+    style="max-width: 850px; width: 100%;"
+  >
+  <figcaption class="text-muted small mt-2">
+    <strong>Figure 1.</strong>
+    Comparison of Clyde riverside street views, semantic segmentation outputs, and observed behavioural patterns.
+  </figcaption>
+</figure>
+
 
 ## Proposed Methodology
 
@@ -68,8 +80,19 @@ This approach was designed as a more accessible alternative for research context
 <br/>
 Both pathways were developed as methodological proposals rather than implemented and validated models.
 <br/>
-Figure 2. Proposed GNN-based and GIS-based pathways for integrating spatial structure into street-view environmental representations.
-<br/>
+
+<figure class="text-center my-4">
+  <img
+    src="{{ 'assets/images/beyondsemantics/figure2.png' | relative_url }}"
+    alt="framework"
+    class="img-fluid rounded"
+    style="max-width: 850px; width: 100%;"
+  >
+  <figcaption class="text-muted small mt-2">
+    <strong>Figure 2.</strong>
+    Proposed GNN-based and GIS-based pathways for integrating spatial structure into street-view environmental representations.
+  </figcaption>
+</figure>
 
 ## Potential Applications and Research Implications
 
