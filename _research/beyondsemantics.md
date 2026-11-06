@@ -32,12 +32,7 @@ Rather than replacing semantic segmentation, the proposal considers how structur
 
 The initial observation came from my MSc research along the River Clyde in Glasgow, where two riverside locations appeared visually similar and shared comparable semantic elements but exhibited different patterns of observed human activity.
 <br/>
-This contrast raised a methodological question: if two environments contain similar visible components, what additional information is needed to explain differences in their use?
-<br/>
-Conventional SVI-based assessment often summarizes semantic segmentation outputs as proportions of environmental categories. While useful for identifying what is present, these measures may overlook how elements are arranged, connected, and experienced across space.
-<br/>
-The proposal identified four potential limitations: fragmented flow across successive viewpoints, dislocated spatial elements, limited representation of structural relationships, and perceptual flattening when distinct configurations are reduced to similar semantic proportions.
-<br/>
+
 <figure class="text-center my-4">
   <img
     src="{{ 'assets/images/beyondsemantics/figure1.png' | relative_url }}"
@@ -48,6 +43,26 @@ The proposal identified four potential limitations: fragmented flow across succe
   <figcaption class="text-muted small mt-2">
     <strong>Figure 1.</strong>
     Comparison of Clyde riverside street views, semantic segmentation outputs, and observed behavioural patterns.
+  </figcaption>
+</figure>
+
+This contrast raised a methodological question: if two environments contain similar visible components, what additional information is needed to explain differences in their use?
+<br/>
+Conventional SVI-based assessment often summarizes semantic segmentation outputs as proportions of environmental categories. While useful for identifying what is present, these measures may overlook how elements are arranged, connected, and experienced across space.
+<br/>
+The proposal identified four potential limitations: fragmented flow across successive viewpoints, dislocated spatial elements, limited representation of structural relationships, and perceptual flattening when distinct configurations are reduced to similar semantic proportions.
+<br/>
+
+<figure class="text-center my-4">
+  <img
+    src="{{ 'assets/images/beyondsemantics/figure3.png' | relative_url }}"
+    alt="weakness"
+    class="img-fluid rounded"
+    style="max-width: 850px; width: 100%;"
+  >
+  <figcaption class="text-muted small mt-2">
+    <strong>Figure 2.</strong>
+    Weakness of semantic segementation analysis for Street View Imageries(SVI)
   </figcaption>
 </figure>
 
@@ -89,7 +104,7 @@ Both pathways were developed as methodological proposals rather than implemented
     style="max-width: 850px; width: 100%;"
   >
   <figcaption class="text-muted small mt-2">
-    <strong>Figure 2.</strong>
+    <strong>Figure 3.</strong>
     Proposed GNN-based and GIS-based pathways for integrating spatial structure into street-view environmental representations.
   </figcaption>
 </figure>
