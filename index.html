@@ -146,6 +146,124 @@ navbar_title: Home
       top: 36px;
     }
   }
+
+
+  
+/* HOMEPAGE TOOLS */
+
+.home-tools {
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e1e9e3;
+}
+
+.home-tools-title {
+  font-size: 1.45rem;
+  margin: 0.6rem 0;
+}
+
+.home-tools-intro {
+  color: #65736b;
+  font-size: 0.92rem;
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.home-tool-card {
+  height: 100%;
+  padding: 1.25rem;
+  border: 1px solid #e6ebe7;
+  border-radius: 10px;
+  background: #fafcfb;
+}
+
+.home-tool-meta {
+  color: #718078;
+  font-size: 0.75rem;
+  margin-bottom: 0.7rem;
+}
+
+.home-tool-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+}
+
+.home-tool-question {
+  font-weight: 600;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.home-tool-card p:not(.home-tool-question) {
+  font-size: 0.85rem;
+  color: #607067;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+
+  
+/* HOMEPAGE MAKING */
+
+.home-making {
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e1e9e3;
+}
+
+.home-making-content {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-top: 0.8rem;
+}
+
+.home-making-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.home-making-text h2 {
+  font-size: 1.45rem;
+  margin-bottom: 0.8rem;
+}
+
+.home-making-text p {
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: #59685f;
+}
+
+.home-making-note {
+  font-style: italic;
+  color: #78857d !important;
+}
+
+.home-making-image {
+  flex: 0 0 155px;
+}
+
+.home-making-image img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+@media (max-width: 576px) {
+  .home-making-content {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .home-making-image {
+    width: 100%;
+    max-width: 220px;
+    flex-basis: auto;
+  }
+}
+
+
 </style>
 
 <div class="row">
@@ -284,6 +402,80 @@ navbar_title: Home
 
         </div>
 
+        
+<!-- RESEARCH SOFTWARE & TOOLS -->
+
+<div class="home-tools">
+
+  <div class="home-eyebrow">
+    Research Software & Tools
+  </div>
+
+  <h2 class="home-tools-title">
+    I also build tools.
+  </h2>
+
+  <p class="home-tools-intro">
+    Sometimes, answering a research question means
+    building the tool first.
+  </p>
+
+  <div class="row">
+
+    <!-- GRAINCHECKER -->
+    <div class="col-md-6 mb-3">
+      <div class="home-tool-card">
+
+        <div class="home-tool-meta">
+          QGIS Plugin · Spatial Statistics
+        </div>
+
+        <h3>GrainChecker</h3>
+
+        <p class="home-tool-question">
+          How sensitive are spatial relationships
+          to the scale of analysis?
+        </p>
+
+        <p>
+         Testing how spatial aggregation changes observed statistical relationships.
+        </p>
+
+      </div>
+    </div>
+
+    <!-- LAND-USE CONTINUITY -->
+    <div class="col-md-6 mb-3">
+      <div class="home-tool-card">
+
+        <div class="home-tool-meta">
+          QGIS Plugin · Spatiotemporal Analysis
+        </div>
+
+        <h3>Land-Use Continuity</h3>
+
+        <p class="home-tool-question">
+          How can historical land-use datasets be
+          compared when boundaries change?
+        </p>
+
+        <p>
+          Making historical land-use comparisons more consistent and reproducible.
+        </p>
+
+      </div>
+    </div>
+
+  </div>
+
+  <a class="journey-link"
+     href="{{ '/tools/' | relative_url }}">
+    Explore Tools &rarr;
+  </a>
+
+</div>
+
+
         <!-- CONCLUDING IDEA -->
 
         <div class="home-thread">
@@ -311,6 +503,49 @@ navbar_title: Home
 
       </div>
     </div>
+
+
+    
+<!-- MAKING -->
+
+<div class="home-making">
+
+  <div class="home-eyebrow">
+    Beyond Research
+  </div>
+
+  <div class="home-making-content">
+
+    <div class="home-making-text">
+
+      <h2>Making things, just because.</h2>
+
+      <p>
+        I like knitting, designing patterns, and
+        occasionally turning very silly ideas into
+        real objects.
+      </p>
+
+      <p class="home-making-note">
+        Not everything needs to become a research project.
+      </p>
+
+      <a class="journey-link"
+         href="{{ '/making/' | relative_url }}">
+        Explore Making &rarr;
+      </a>
+
+    </div>
+
+    <div class="home-making-image">
+      <img src="/assets/images/making/making-preview.jpg"
+           alt="A handmade knitting project">
+    </div>
+
+  </div>
+
+</div>
+
 
   </div>
 </div>
