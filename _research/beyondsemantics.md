@@ -55,7 +55,7 @@ The proposal identified four potential limitations: fragmented flow across succe
 
 <figure class="text-center my-4">
   <img
-    src="{{ 'assets/images/beyondsemantics/figure3.png' | relative_url }}"
+    src="{{ 'assets/images/beyondsemantics/figure4.png' | relative_url }}"
     alt="weakness"
     class="img-fluid rounded"
     style="max-width: 850px; width: 100%;"
