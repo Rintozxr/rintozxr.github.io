@@ -7,6 +7,7 @@ permalink: /research/urbanbuilt/
 # Urban Built Environments and Juvenile Delinquency
 
 **An exploratory study of street environments and urban safety in Nanping, China**
+<br/>
 Groupwork with Huaying Mao, Junyi Lin, and Tiejun He
 <div class="project-meta">
   <span class="badge">2020</span>
